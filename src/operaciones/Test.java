@@ -1,6 +1,8 @@
 
 package operaciones;
 
+import static operaciones.Aritmetica.nuevoMetodo;
+
 
 public class Test {
 
@@ -19,6 +21,9 @@ public class Test {
         System.out.println("res = "+res);
         res=aritm.sumaArgs(8,9);
         System.out.println("res = "+res);
+        nuevoMetodo();
+        /*si el main es static el metodo tiene que
+        ser estatico para que este pueda reconocerlo*/
         
     }
     }

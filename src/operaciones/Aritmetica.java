@@ -30,5 +30,9 @@ public class Aritmetica {
         this.b=b;
         return this.a +this.b;
     }
+    
+    public static void nuevoMetodo(){
+        System.out.println("nuevo metodo");
+    }
 
 }
